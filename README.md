@@ -30,11 +30,11 @@ The `TempleRun_RoadManager` class is responsible for managing the endless runner
 
 #### Jump Mechanism
 
-The `Jump()` coroutine provides a smooth jumping experience for the player. It handles the upward motion, pause at the peak, and gradual descent. [View the code here.](#player-control)
+The `Jump()` coroutine provides a smooth jumping experience for the player. It handles the upward motion, pause at the peak, and gradual descent. 
 
 #### Collision Handling
 
-The `OnTriggerEnter2D` method manages collisions with enemies, walls (hole obstacles), and collectibles. It triggers actions such as losing health, collecting items, and modifying the player's speed. [View the code here.](#road-manager)
+The `OnTriggerEnter2D` method manages collisions with enemies, walls (hole obstacles), and collectibles. It triggers actions such as losing health, collecting items, and modifying the player's speed.
 
 ## Team Collaboration:
 
@@ -53,6 +53,7 @@ The Live Project not only honed my technical skills but also instilled in me the
 Thank you for checking out my Live Project!
 
 ## Temple Run Player Control
+
 <a name="player-control"></a>
 
 ```csharp
@@ -108,6 +109,7 @@ IEnumerator Jump()
     }
 ```
 ## Temple Run Road Manager
+
 <a name="road-manager"></a>
 
 ```csharp
